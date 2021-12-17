@@ -76,6 +76,8 @@ end
 
 gem "standardrb", "~> 1.0", group: :development
 
-gem "foreman", "~> 0.87.2", :group => :development
+gem "foreman", "~> 0.87.2", group: :development
 
 gem "cssbundling-rails", "~> 1.0"
+
+gem "dotenv", "~> 2.7", :group => :development
